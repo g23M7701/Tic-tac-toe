@@ -3,7 +3,7 @@ To build a tic-tac-toe game so anyone can play it without wasting paper.
 
 Group name: [Brocode]
 
-Group members: [Mutsila Humbulani, Justin, Dustin]
+Group members: [Mutsila Humbulani, Mudimbu Justin, Hendricks Dustin]
 
 Group mentor: [N/A]
 
