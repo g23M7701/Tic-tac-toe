@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:background="@color/black"
+    android:background="@drawable/aac4672dc35605e6118898997ca021f1"
     android:fadingEdge="none"
     android:focusable="auto"
-    android:statusBarColor="@color/white"
     app:layout_marginBaseline="0dp"
     tools:context=".MainActivity">
 
@@ -20,14 +19,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:clickable="true"
+        android:focusable="true"
         android:fontFamily="sans-serif"
         android:selectAllOnFocus="true"
         android:text="Tic Tac Toe"
         android:textAllCaps="true"
         android:textSize="50sp"
-        android:textStyle="bold"
-        android:focusable="true"
-        android:textColor="@color/white"/>
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:id="@+id/Relative_layout"
@@ -47,8 +45,7 @@
             android:layout_marginTop="-1dp"
             android:text="player1 score"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_player2"
@@ -59,8 +56,7 @@
             android:layout_marginEnd="0dp"
             android:text="player2 score"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/text_score_player1"
@@ -71,8 +67,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="0"
-            android:textSize="20sp"
-            android:textColor="@color/white"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/text_score_player2"
@@ -83,8 +78,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="65dp"
             android:text="0"
-            android:textSize="20sp"
-            android:textColor="@color/white"/>
+            android:textSize="20sp"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -251,7 +245,6 @@
         android:layout_marginHorizontal="6dp"
         android:layout_marginBottom="163dp"
         android:text="Status"
-        android:textColor="@color/white"
         android:textSize="26sp" />
 
     <Button
@@ -290,8 +283,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="83dp"
         android:layout_marginEnd="69dp"
-        android:text="@string/by_brocode"
-        android:textColor="@color/white"/>
+        android:text="by_brocode" />
 
     <TextView
         android:id="@+id/textView3"

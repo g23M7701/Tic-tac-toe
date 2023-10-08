@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">TicTacToeProject</string>
-    <string name="tic_tac_toe">Tic Tac Toe.</string>
-    <string name="by_brocode">by Brocode.</string>
+    <string name="app_name">Comsci 102 project</string>
 </resources>
